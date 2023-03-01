@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenith's Specialty Shop</title>
+    <link rel="Stylesheet" href="./index.css">
+    <link rel="Stylesheet" href="./Another.css">
+    <link rel="Stylesheet" href="./grid.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="Stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="row">
+                <ul class="navigation">
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#Randy">The man behind it all</a></li>
+                    <li><a href="#">Meet our makers</a></li>
+                    <li><a href="#contact">Contact us</a></li>
+                </ul>
+        </nav>
+        <div class="hero-text-box">
+            <h1>Zenith's Specialty Shop <br> 12 W Main Street Ephrata PA</h1>
+            <br>
+            <a href="#" class="btn btn-full">Shop</a>
+            <a href="#contact" class="btn btn-ghost">Contact!</a>
+        </div>
+    </header>
+    <section id="Randy" class="section-features">
+        <div class="row2">
+            <h2>
+                The man behind it all
+            </h2>
+            <p class="long-copy">
+                Meet the owner of this lovely little shop, Randy Eberhard. At age 50 he decided to make a change and open this shop. through hardwork and sheer determination he succeeeded in starting this shop with the help of many others. Come stop in and say "Hi" to him!
+            </p>
+            <div class="row">
+                <div class="col span-1-of-4 box">
+                    <p>Insert photo of his face here</p>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <h4>Randy Eberhard, Owner</h4>
+
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img id="shroom" src="./shroom closed.jpg" alt="">
+                    <img id="shroom" src="./shroom opened.jpg" alt="">
+                </div>
+                <div class="col span-1-of-4 box">
+                    <h3>Candle Maker</h3>
+                    <p>
+                        As well as owning the shop he makes all of the candles in the shop. He also is the maker of his famous stash-shroom. A candle and wax melt combo shown in the picture to the left.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="section-form">
+        <div class="row">
+            <h2>
+                We're happy to hear from you
+            </h2>
+        </div>
+        <div class="row">
+            <form class="contact-form" method="post" action="#">
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input id="name" type="text" name="name" placeholder="Your name" required="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input id="email" type="email" name="email" placeholder="Your email" required="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="find-us">How did you find us?</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <select id="find-us" name="find-us">
+                            <option value="friends" selected="">Friends</option>
+                            <option value="search" selected="">Search engine</option>
+                            <option value="ad">Advertisement</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>Newsletter?</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input id="news" type="checkbox" name="news" checked="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>Drop us a line</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <textarea name="message" placeholder="Your message"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label></label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input class="btn btn-full" type="submit" value="Send it!">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <ul class="footer-nav">
+                    <li>
+                        <a href="#">About us</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col span-1-of-2">
+                <ul class="social-links">
+                    <li>
+                        <a href="#">
+                            <ion-icon class="facebook md hydrate" name="logo-facebook" role="img" aria-label="logo facebook"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <ion-icon class="twitter md hydrate" name="logo-twitter" role="img" aria-label="logo twitter"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <ion-icon class="youtube md hydrate" name="logo-youtube" role="img" aria-label="logo youtube"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <ion-icon class="instagram md hydrate" name="logo-instagram" role="img" aria-label="logo instagram"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <p>
+                Built by Cameron Angelilli. Check my portfolio out here <a href="https://github.com/Camerxns ">https://github.com/Camerxns </a>
+            </p>
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</body>
+</html>
